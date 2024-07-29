@@ -1,0 +1,120 @@
+:root {
+  --yashil: #6EB093;
+  --kulrang: #242424;
+  --qora: #121212;
+}
+
+body {
+  background-color: var(--qora);
+  color: white;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.ikki-chetda {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.linklar {
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+}
+
+header,
+section,
+footer,
+hr {
+  width: min(100% - 16px, 1000px);
+  margin-inline: auto;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: var(--yashil);
+  text-underline-offset: 10px;
+  text-decoration-thickness: 6px;
+}
+
+.haqimda p {
+  max-width: 50ch;
+  line-height: 1.5;
+}
+
+.link {
+  text-decoration: underline;
+  text-decoration-color: var(--yashil);
+  text-transform: uppercase;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 2px;
+  font-weight: bold;
+}
+
+section {
+  margin-block: 50px;
+}
+
+.tillar {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tillar h3 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.tillar p {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+.loyihalar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.loyihalar h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.loyihalar ul {
+  display: flex;
+  gap: 24px;
+  padding-left: 0;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.murojaat {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.murojaat h2 {
+  margin-block: 0px;
+}
